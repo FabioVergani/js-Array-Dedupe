@@ -1,6 +1,6 @@
 # js-Array-Dedupe
 Performant array duplicate removal, disruptive OR Conservative.
-
+```
 console.log(test,dedupeConservative(test));
 /*
 §
@@ -19,3 +19,4 @@ console.log(test,dedupeDisruptive(test));
   [1,5,undefined,2,3,4,undefined,6]
   [1,5,undefined,2,3,4,undefined,6]
 */
+```
