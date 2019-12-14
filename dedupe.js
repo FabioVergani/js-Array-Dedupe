@@ -49,3 +49,17 @@ const condenseArrayConservative=a=>{
   };
   return m
 };
+
+
+/*
+dedupe=(m,v)=>{
+	m.forEach((v,i,m)=>{
+		let j=m.lastIndexOf(v);
+		while(i!==j){
+			m.splice(j,1);
+			j=m.lastIndexOf(v)
+		};
+	})
+	return m
+}
+*/
